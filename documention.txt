@@ -1,0 +1,8 @@
+Reference:-https://bootstrapdemos.adminmart.com/modernize/dist/main/index.html
+
+Color:-
+
+primary-color: #5d87ff;
+secondary-color: #49beff;
+light-color: rgba(93, 135, 255, 0.1);
+dark-color: #202936;

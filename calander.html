@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar - Modernize Adamin Panel</title>
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fecicon-icon css -->
+    <link rel="icon" href="images/calender.png">
+    <!-- fonts css -->
+    <link rel="stylesheet" href="css/font.css">
+    <!-- custem css -->
+    <link rel="stylesheet" href="css/style.css" id="themecss">
+    <!-- media css -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <!-- black cover start -->
+    <div class="b-back d-none"></div>
+    <div class="xl-b-back-btn d-none"></div>
+    <!-- black cover end -->
+
+    <!-- Sidebar start -->
+    <div class="sidebar pos-fxd side-close">
+        <div class="logo d-flex aln-cnt">
+            <i class="fa-solid fa-square-xmark d-none pos-abs side-d-block xl-d-none" id="sidebar-close"></i>
+            <a href="index.html"class="nowrap aln-cnt jst-str">
+                <div style="width: 30px;">
+                    <img src="images/favicon-icon" alt="favicon-icon">
+                </div>
+                <h2 class="side-d-block">Modernize</h2>
+            </a>
+        </div>
+        <div class="menus">
+            <div class="menu">
+                <div class="menu-ttl">
+                    <h4>
+                        <span class="d-none side-d-block">Home</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html"class="menu-link">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>Modern</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>ECommerce</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>NFT</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>Crypto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                            <span>General</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Music</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <div class="menu-ttl">
+                    <h4>
+                        <span class="d-none side-d-block">Apps</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="calander.html" class="menu-link active">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            <span>Caleadar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-comment-dots"></i>
+                            <span>Chat</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-regular fa-circle-user"></i>
+                            <span>User&nbsp;Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>Invoice</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-regular fa-rectangle-list"></i>
+                            <span>Contect&nbsp;List</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-clipboard"></i>
+                            <span>Notes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <span>Blog <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Posts</li>
+                            <li>Details</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            <span>ECommerce <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Shope</li>
+                            <li>Details</li>
+                            <li>List</li>
+                            <li>Cheakout</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <div class="menu-ttl">
+                    <h4>
+                        <span class="d-none side-d-block">Pages </span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>Pricing</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-regular fa-circle-user"></i>
+                            <span>Account&nbsp;Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-window-maximize"></i>
+                            <span>Landing&nbsp;Page</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-brands fa-slack"></i>
+                            <span>Widgrts <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Cards</li>
+                            <li>Banner</li>
+                            <li>Charts</li>
+                            <li>Feed&nbsp&nbsp;Widgets</li>
+                            <li>Apps&nbsp&nbsp;Widgets</li>
+                            <li>Data&nbsp&nbsp;Widgets</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <div class="menu-ttl">
+                    <h4>
+                        <span class="d-none side-d-block">Ui</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-table-cells-large"></i>
+                            <span>UI&nbsp;Elements <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Accordian</li>
+                            <li>Badge</li>
+                            <li>Buttons</li>
+                            <li>Dropdowns</li>
+                            <li>Models</li>
+                            <li>Tabs</li>
+                            <li>Tooltip&nbsp;&&nbsp;Popover</li>
+                            <li>Alerts</li>
+                            <li>Lists</li>
+                            <li>Grid</li>
+                            <li>Carosal</li>
+                            <li>Spiners</li>
+                            <li>Link</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-regular fa-credit-card"></i>
+                            <span>Cards <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Basic&nbsp;Cards</li>
+                            <li>Custom&nbsp;Cards</li>
+                            <li>Weather&nbsp;Cards</li>
+                            <li>Draggable&nbsp;Cards</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-recycle"></i>
+                            <span>Componets <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Sweet&nbsp;Alert</li>
+                            <li>Nestable</li>
+                            <li>Noui&nbsp;slider</li>
+                            <li>Rating</li>
+                            <li>Toster</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <div class="menu-ttl">
+                    <h4>
+                        <span class="d-none side-d-block">Forms</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span>Form&nbsp;Elements <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Forms&nbsp;Input</li>
+                            <li>Input&nbsp;Groups</li>
+                            <li>Input&nbsp;Grid</li>
+                            <li>Checkbox</li>
+                            <li>Bootstrap</li>
+                            <li>Select2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-qrcode"></i>
+                            <span>Form&nbsp;Addons <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Paginator</li>
+                            <li>Image&nbsp;Cropper</li>
+                            <li>Dropzone</li>
+                            <li>Form&nbsp;Typehead</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <span>Form&nbsp;Validation <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Bootstrap&nbsp;Validation</li>
+                            <li>Custom&nbsp;Validation</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-file-pen"></i>
+                            <span>Form&nbsp;Pickers <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Colorpicker</li>
+                            <li>Datetimepicker</li>
+                            <li>Rangepicker</li>
+                            <li>Datepicker</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-dna"></i>
+                            <span>Form&nbsp;Editor <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Ck&nbsp;Editor</li>
+                            <li>Quill&nbsp;Editor</li>
+                            <li>Summernote&nbsp;Editor</li>
+                            <li>Tinymce&nbsp;Editor</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-box-archive"></i>
+                            <span>Basic&nbsp;Form</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-box"></i>
+                            <span>Form&nbsp;Vertical</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                            <span>Form&nbsp;Horizontal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-file-export"></i>
+                            <span>Form&nbsp;Actions</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-left-right"></i>
+                            <span>Row&nbsp;Separator</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-border-none"></i>
+                            <span>Form&nbsp;Bordered</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link">
+                            <i class="fa-solid fa-file-waveform"></i>
+                            <span>Form&nbsp;Detail</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu">
+                <div class="menu-ttl">
+                    <h4>
+                        <span class="d-none side-d-block">Tables</span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Bootstrap&nbsp;Table <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Basic&nbsp;Table</li>
+                            <li>Dark&nbsp;Table</li>
+                            <li>Sizing&nbsp;Table</li>
+                            <li>Coloured&nbsp;Table</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-link dropdown">
+                            <i class="fa-solid fa-ticket"></i>
+                            <span>Datatables <i class="fa-solid fa-chevron-down faq-i"></i></span>
+                        </a>
+                        <ul class="drop-menu d-none">
+                            <li>Basic&nbsp;Initialisation</li>
+                            <li>API</li>
+                            <li>Advanced&nbsp;Initialisation</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="profile d-flex aln-cnt jst-cnt">
+            <div class="prf-m-box w-10 nowrap aln-cnt">
+                <div class="profile-frem" style="--profile-size:50px">
+                    <img src="images/avtar.jpg" alt="">
+                </div>
+                <div class="prf-cnt d-none side-d-block">
+                    <h4>Rutam</h4>
+                    <p>Developar</p>
+                </div>
+                <div class="prf-icon d-none side-d-block">
+                    <i class="fa-solid fa-power-off"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar end -->
+
+    <!-- setting-bar start -->
+    <a href="#" class="stn-btn pos-fxd d-flex jst-cnt aln-cnt">
+        <i class="fa-solid fa-gear"></i>
+    </a>
+    <div class="setting-bar pos-fxd stnbar-close">
+        <div class="heading d-flex jst-btw aln-cnt">
+            <h2>Setting</h2>
+            <i class="fa-solid fa-xmark stn-btn-close"></i>
+        </div>
+        <div class="menus">
+            <!-- theme start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Theme</h3>
+                </div>
+                <div class="content d-flex">
+                    <div class="w-5">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="style">
+                            <i class="fa-regular fa-sun"></i>
+                            <span>Light</span>
+                        </a>
+                    </div>
+                    <div class="w-5">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="dark-color">
+                            <i class="fa-regular fa-moon"></i>
+                            <span>Dark</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- theme end -->
+
+            <!-- theme-direction start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Theme Direction</h3>
+                </div>
+                <div class="content d-flex">
+                    <div class="w-5">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span>LTR</span>
+                        </a>
+                    </div>
+                    <div class="w-5">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-angles-left"></i>
+                            <span>RTL</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- theme-direction start -->
+
+            <!-- theme-color start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Theme Color</h3>
+                </div>
+                <div class="content d-flex row-gap">
+                    <div class="w-4">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="style">
+                            <div class="clr-box clr-box-af" style="background-color: #5d87ff;"></div>
+                        </a>
+                    </div>
+                    <div class="w-4">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="darkblue">
+                            <div class="clr-box" style="background-color: #0074ba;"></div>
+                        </a>
+                    </div>
+                    <div class="w-4">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="purple">
+                            <div class="clr-box" style="background-color: #763ebd;"></div>
+                        </a>
+                    </div>
+                    <div class="w-4">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="teal">
+                            <div class="clr-box" style="background-color: #0a7ea4;"></div>
+                        </a>
+                    </div>
+                    <div class="w-4">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="aqua">
+                            <div class="clr-box" style="background-color: #01c0c8;"></div>
+                        </a>
+                    </div>
+                    <div class="w-4">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt color-swatch" id="orange">
+                            <div class="clr-box" style="background-color: #fa896b;"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- theme-color end -->
+
+            <!-- layout-type start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Layout Type</h3>
+                </div>
+                <div class="content d-flex">
+                    <div class="w-5">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-grip-lines-vertical"></i>
+                            <span>Verticle</span>
+                        </a>
+                    </div>
+                    <div class="w-7">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-grip-lines"></i>
+                            <span>Horizontel</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- layout-type end -->
+
+            <!-- container-opation start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Container Option</h3>
+                </div>
+                <div class="content d-flex">
+                    <div class="w-6">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-arrows-to-dot"></i>
+                            <span>Boxed</span>
+                        </a>
+                    </div>
+                    <div class="w-6">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-up-down-left-right"></i>
+                            <span>Full</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- container-opation end -->
+
+            <!-- sidebar-type start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Sidebar Type</h3>
+                </div>
+                <div class="content d-flex">
+                    <div class="w-5">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-arrows-to-dot"></i>
+                            <span>Full</span>
+                        </a>
+                    </div>
+                    <div class="w-7">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt">
+                            <i class="fa-solid fa-up-down-left-right"></i>
+                            <span>Collapse</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- sidebar-type end -->
+
+            <!-- card-with start -->
+            <div class="main-box">
+                <div class="heading">
+                    <h3>Card With</h3>
+                </div>
+                <div class="content d-flex">
+                    <div class="w-6">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt border-btn">
+                            <i class="fa-solid fa-border-all"></i>
+                            <span>Border</span>
+                        </a>
+                    </div>
+                    <div class="w-6">
+                        <a href="#" class="box d-flex aln-cnt jst-cnt shadow-btn">
+                            <i class="fa-solid fa-border-none"></i>
+                            <span>Shadow</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card-with end -->
+        </div>
+    </div>
+    <!-- setting-bar end -->
+    
+    <!-- menu-bars start -->
+
+    <!-- searchbar-start -->
+    <div class="searchbar pos-abs box searchbar-close">
+        <div class="heading d-flex jst-btw aln-cnt">
+            <div class="input">
+                <input type="text" placeholder="Search Here">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-xmark srcbar-close"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="heading m-b-20">
+                <h3>Quick Page Links</h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h4>Modern</h4>
+                        <p>/dashboards/dashboard1</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Dashbord</h4>
+                        <p>/dashboards/dashboard2</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Contects</h4>
+                        <p>/apps/contects</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Posts</h4>
+                        <p>/apps/blogs/posts</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Deatil</h4>
+                        <p>/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Shop</h4>
+                        <p>/apps/ecommerce/shop</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Modern</h4>
+                        <p>/dashboards/dashboard1</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Dashbord</h4>
+                        <p>/dashboards/dashboard2</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Contects</h4>
+                        <p>/apps/contects</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Posts</h4>
+                        <p>/apps/blogs/posts</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Deatil</h4>
+                        <p>/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Shop</h4>
+                        <p>/apps/ecommerce/shop</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- searchbar-start -->
+
+     <!-- shoping-cart start -->
+     <div class="shoping-cart pos-fxd shop-close box">
+        <div class="heading d-flex aln-cnt jst-btw">
+            <h3>Shopping Cart</h3>
+            <div class="s-btn">5 new</div>
+        </div>
+        <div class="content">
+            <div class="img-bar m-b-40">
+                <div class="main-box d-flex aln-cnt m-b-40">
+                    <div class="img-box w-5 d-flex aln-cnt jst-cnt">
+                        <img src="images/product/product-1.jpg" alt="">
+                    </div>
+                    <div class="text w-7">
+                        <h4 class="m-b-10">Supreme toys cooker</h4>
+                        <p class="m-b-10">Kitchenware Item</p>
+                        <div class="d-flex aln-cnt">
+                            <div class="w-6">
+                                <p>$250</p>
+                            </div>
+                            <div class="w-6 d-flex">
+                                <div class="w-4 shop-b">
+                                    <i class="fa-solid fa-minus"></i>
+                                </div>
+                                <div class="w-4">1</div>
+                                <div class="w-4 shop-b">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-box d-flex aln-cnt m-b-40">
+                    <div class="img-box w-5 d-flex aln-cnt jst-cnt">
+                        <img src="images/product/product-2.jpg" alt="">
+                    </div>
+                    <div class="text w-7">
+                        <h4 class="m-b-10">Supreme toys cooker</h4>
+                        <p class="m-b-10">Kitchenware Item</p>
+                        <div class="d-flex aln-cnt">
+                            <div class="w-6">
+                                <p>$250</p>
+                            </div>
+                            <div class="w-6 d-flex">
+                                <div class="w-4 shop-b">
+                                    <i class="fa-solid fa-minus"></i>
+                                </div>
+                                <div class="w-4">1</div>
+                                <div class="w-4 shop-b">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-box d-flex aln-cnt">
+                    <div class="img-box w-5 d-flex aln-cnt jst-cnt">
+                        <img src="images/product/product-3.jpg" alt="">
+                    </div>
+                    <div class="text w-7">
+                        <h4 class="m-b-10">Supreme toys cooker</h4>
+                        <p class="m-b-10">Kitchenware Item</p>
+                        <div class="d-flex aln-cnt">
+                            <div class="w-6">
+                                <p>$250</p>
+                            </div>
+                            <div class="w-6 d-flex">
+                                <div class="w-4 shop-b">
+                                    <i class="fa-solid fa-minus"></i>
+                                </div>
+                                <div class="w-4">1</div>
+                                <div class="w-4 shop-b">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing m-b-40" style="padding: 0px 10px;">
+                <div class="d-flex aln-cnt jst-btw m-b-20">
+                    <p>Sub Total</p>
+                    <h4>$2530</h4>
+                </div>
+                <div class="d-flex aln-cnt jst-btw">
+                    <p>Total</p>
+                    <h4>$6830</h4>
+                </div>
+            </div>
+            <a href="#" class="btn d-flex aln-cnt jst-cnt">
+                Go to shopping cart
+            </a>
+        </div>
+    </div>
+    <!-- shoping-cart end -->
+
+    <!-- menu-bars end -->
+
+    <!-- Header start -->
+    <header class="pos-fxd d-flex aln-cnt side-open-c">
+        <div class="contaner w-12">
+            <div class="row">
+                <div class="w-6 menus d-flex aln-cnt w-md-12">
+                    <ul class="d-flex aln-cnt w-md-12 md-jst-btw md-p-l-r">
+                        <li id="sidebar-open"><a href="#" class="icon"><i class="fa-solid fa-bars"></i></a></li>
+                        <li class="pos-rltv srcbar-open md-d-none">
+                            <a href="#" class="icon"><i class="fa-solid fa-search"></i></a>
+                        </li>
+                        <li class="pos-rltv apps-btn md-d-none">
+                            <a href="#">
+                                <span>Apps</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="appsbar pos-abs d-flex box">
+                                <div class="apps w-8">
+                                    <div class="app d-flex">
+                                        <div class="w-6">
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-chat.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-invoice.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-mobile.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-message-box.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="w-6">
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-cart.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-date.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-lifebuoy.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="d-flex aln-cnt m-b-20">
+                                                <div class="img w-3 squar-icon" style="background: #5d87ff1a;">
+                                                    <img src="images/apps/icon-dd-application.svg" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="m-b-5">Chat Application</h5>
+                                                    <h6>New messages arrived</h6>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="qua d-flex jst-btw aln-cnt">
+                                        <div class="qua-m">
+                                            <h4>Frequently Asked Questions</h4>
+                                        </div>
+                                        <div class="a-btn">
+                                            <a href="#" class="s-btn"
+                                                style="background: #5d87ff;color: #fff;padding: 10px 20px;">
+                                                Check
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="links w-4">
+                                    <div class="heading m-b-20">
+                                        <h2>Quick Links</h2>
+                                    </div>
+                                    <ul>
+                                        <li class="m-b-10">
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                        <li class="m-b-10">
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                        <li class="m-b-10">
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                        <li class="m-b-10">
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                        <li class="m-b-10">
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                        <li class="m-b-10">
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <h4>Pricing Page</h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="md-d-none"><a href="#">Chat</a></li>
+                        <li class="md-d-none"><a href="#">Calendar</a></li>
+                        <li class="md-d-none"><a href="#">Email</a></li>
+                        <li class="xxl-d-none xl-d-none md-d-flex">
+                            <a href="#" class="md-d-flex">
+                                <div style="width: 30px;">
+                                    <img src="images/favicon-icon" alt="favicon-icon">
+                                </div>
+                                <h2 style="margin-left: 5px;font-weight: 600;">Modernize</h2>
+                            </a>
+                        </li>
+                        <li class="xxl-d-none xl-d-none md-d-block md-icon-btn"><a href="#">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="w-6 icons w-md-12 md-pos-abs md-d-flex md-jst-btw md-aln-cnt md-icon-c">
+                    <div class="xxl-d-none xl-d-none md-d-block">
+                        <i class="fa-solid fa-bars-staggered" id="md-menusbar-btn"></i>
+                    </div>
+                    <ul class="d-flex jst-end aln-cnt">
+                        <li>
+                            <i class="fa-regular fa-moon h-fa-moon color-swatch" id="dark-color"></i>
+                            <i class="fa-regular fa-sun h-fa-sun d-none color-swatch" id="style"></i>
+                        </li>
+                        <li class="flags-open pos-rltv">
+                            <div class="profile-frem" style="--profile-size:25px">
+                                <img src="images/flags/en-flag.png" alt="en-flag">
+                            </div>
+                            <div class="flags pos-abs d-none box">
+                                <div class="main-box d-flex aln-cnt">
+                                    <div class="profile-frem" style="--profile-size:30px">
+                                        <img src="images/flags/en-flag.png" alt="">
+                                    </div>
+                                    <div class="profile-content">
+                                        <h4>English(UK)</h4>
+                                    </div>
+                                </div>
+                                <div class="main-box d-flex aln-cnt">
+                                    <div class="profile-frem" style="--profile-size:30px">
+                                        <img src="images/flags/chin.webp" alt="">
+                                    </div>
+                                    <div class="profile-content">
+                                        <h4>中国人 (Chinese)</h4>
+                                    </div>
+                                </div>
+                                <div class="main-box d-flex aln-cnt">
+                                    <div class="profile-frem" style="--profile-size:30px">
+                                        <img src="images/flags/franch.webp" alt="">
+                                    </div>
+                                    <div class="profile-content">
+                                        <h4>Français (French)</h4>
+                                    </div>
+                                </div>
+                                <div class="main-box d-flex aln-cnt">
+                                    <div class="profile-frem" style="--profile-size:30px">
+                                        <img src="images/flags/arbic.jpg" alt="">
+                                    </div>
+                                    <div class="profile-content">
+                                        <h4>عربي (Arabic)</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="shoping-cart-open pos-rltv">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </li>
+                        <li class="notification-open pos-rltv">
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="notification pos-abs d-none box">
+                                <div class="heading d-flex aln-cnt jst-btw">
+                                    <h3>Notifications</h3>
+                                    <div class="s-btn">5new</div>
+                                </div>
+                                <div class="menus">
+                                    <div class="main-box d-flex aln-cnt m-b-5">
+                                        <div class="profile-frem" style="--profile-size: 50px;margin-right: 10px;">
+                                            <img src="images/profils/user-2.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="m-b-5">New message</h4>
+                                            <p>Salma sent you new message</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt m-b-5">
+                                        <div class="profile-frem" style="--profile-size: 50px;margin-right: 10px;">
+                                            <img src="images/profils/user-3.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="m-b-5">New message</h4>
+                                            <p>Salma sent you new message</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt m-b-5">
+                                        <div class="profile-frem" style="--profile-size: 50px;margin-right: 10px;">
+                                            <img src="images/profils/user-4.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="m-b-5">New message</h4>
+                                            <p>Salma sent you new message</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt m-b-5">
+                                        <div class="profile-frem" style="--profile-size: 50px;margin-right: 10px;">
+                                            <img src="images/profils/user-5.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="m-b-5">New message</h4>
+                                            <p>Salma sent you new message</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt m-b-5">
+                                        <div class="profile-frem" style="--profile-size: 50px;margin-right: 10px;">
+                                            <img src="images/profils/user-6.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="m-b-5">New message</h4>
+                                            <p>Salma sent you new message</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt">
+                                        <div class="profile-frem" style="--profile-size: 50px;margin-right: 10px;">
+                                            <img src="images/profils/user-7.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="m-b-5">New message</h4>
+                                            <p>Salma sent you new message</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="height: 50px;padding: 0px 30px;">
+                                    <a href="#" class="btn d-flex aln-cnt jst-cnt">
+                                        See All Notifications
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pos-rltv profilebar-open">
+                            <div class="profile-frem" style="--profile-size:40px">
+                                <img src="images/avtar.jpg" alt="avtar">
+                            </div>
+                            <div class="profilebar pos-abs d-none box">
+                                <h3 class="m-b-20">User Profile</h3>
+                                <div class="profile-box d-flex aln-cnt m-b-20">
+                                    <div class="profile-frem" style="--profile-size:90px;">
+                                        <img src="images/avtar.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="m-b-5">Rutam Dabhi</h4>
+                                        <p class="m-b-5">Developer</p>
+                                        <p>
+                                            <i class="fa-solid fa-envelope"></i>
+                                            &nbsp;
+                                            dabhi34@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="my-activity m-b-20">
+                                    <div class="main-box d-flex aln-cnt m-b-20">
+                                        <div class="squar-icon w-2">
+                                            <img src="images/apps/icon-account.svg" alt="">
+                                        </div>
+                                        <div class="a-content">
+                                            <h4 class="m-b-5">My Profile</h4>
+                                            <p>Account Settings</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt m-b-20">
+                                        <div class="squar-icon w-2">
+                                            <img src="images/apps/icon-inbox.svg" alt="">
+                                        </div>
+                                        <div class="a-content">
+                                            <h4 class="m-b-5">My Profile</h4>
+                                            <p>Account Settings</p>
+                                        </div>
+                                    </div>
+                                    <div class="main-box d-flex aln-cnt">
+                                        <div class="squar-icon w-2">
+                                            <img src="images/apps/icon-tasks.svg" alt="">
+                                        </div>
+                                        <div class="a-content">
+                                            <h4 class="m-b-5">My Profile</h4>
+                                            <p>Account Settings</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="upagrade d-flex jst-btw m-b-20">
+                                    <div class="content" style="padding: 20px;">
+                                        <h4 class="m-b-10">Unlimited <br /> Access</h4>
+                                        <a href="#" class="s-btn">
+                                            Upgrade
+                                        </a>
+                                    </div>
+                                    <div class="img">
+                                        <img src="images/unlimited-bg.png" alt="">
+                                    </div>
+                                </div>
+                                <a href="#" class="btn d-flex jst-cnt aln-cnt">
+                                    Log Out
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Maincontent start -->
+    <div class="maincontent side-open-c">
+        <div id='calendar'></div>
+    </div>
+    <!-- Maincontent end -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+    <script src="js/custem.js"></script>
+    
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'multiMonthYear'
+            });
+            calendar.render();
+        });
+
+    </script>
+</body>
+
+</html>
